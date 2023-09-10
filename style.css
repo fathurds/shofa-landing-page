@@ -1,0 +1,205 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-item > .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.icon {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: relative;
+}
+
+.icon.icon-search {
+  background-image: url('/assets/icons/magnify.svg');
+}
+
+.icon.icon-heart {
+  background-image: url('/assets/icons/heart.svg');
+}
+
+.icon.icon-shopping-bag {
+  background-image: url('/assets/icons/shopping-bag.svg');
+}
+
+.nav-link {
+  padding: 20px 10px;
+}
+
+.nav-icon {
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+}
+
+.nav-item {
+  border-top: 3px solid transparent;
+  transition: background-color .3s ease-in-out, border-top .3s ease-in-out;
+}
+
+.nav-item:hover {
+  border-top: 3px solid #343434;
+  background-color: rgba(196, 196, 196, 17%);
+}
+
+.main-image {
+  background-image: url("/assets/images/bg-img-01.png");
+  background-color: #363636;
+  height: 750px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1340px) {
+  .main-image{
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+  }
+}
+
+.new-collection h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.new-collection h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.new-collection h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.new-collection button {
+  color: #FFF;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  padding: 15px 45px;
+  transition: color .2s ease-in-out, border .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.new-collection button:hover {
+  color: #363636;
+  border: 1px solid #363636;
+  background-color: #FFF;
+}
+
+.img-description {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200px;
+  transform: translateY(100%);
+  transition: transform .3s ease-in-out;
+}
+
+.img-sale-wrapper {
+  cursor: pointer;
+}
+
+.img-sale-wrapper:hover > .img-description {
+  transform: translateY(0);
+}
+
+.img-description h3:first-child {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.img-description h3:nth-child(2) {
+  font-size: 45px;
+  font-weight: 800;
+  padding: 5px 0;
+}
+
+.img-description h3:last-child {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.bring-it-description p {
+  font-size: 22px;
+  margin: 25px 0;
+}
+
+.bring-it-description button {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.type-bg {
+  height: 500px;
+  background-size: cover;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 800;
+  background-position: center;
+  cursor: pointer;
+  transition: scale .3s ease-in-out;
+}
+
+.type-bg:hover {
+  scale: 1.2;
+}
+
+.type .col-6, .type .col-12 {
+  overflow: hidden;
+}
+
+.bg-men {
+  background-image: url('/assets/images/men.png');
+}
+.bg-women {
+  background-image: url('/assets/images/women.png');
+}
+.bg-kids {
+  background-image: url('/assets/images/kids.png');
+}
+.bg-running {
+  background-image: url('/assets/images/running.png');
+}
+.bg-lookbook {
+  background-image: url('/assets/images/lookbook.png');
+}
+
+.special-product-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.special-card {
+  cursor: pointer;
+}
+
+.special-card > .card-body > div:first-child, .special-card > .card-body > div:nth-child(2), .special-card > .card-body > div:last-child {
+  font-size: 24px;
+  font-weight: 500;
+}
+.special-card > .card-body > div:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.footer-sub span {
+  color: #C4C4C4;
+  font-weight: 800;
+  font-size: 24px;
+  cursor: pointer;
+}
